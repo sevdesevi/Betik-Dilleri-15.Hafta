@@ -15,7 +15,7 @@ while patlama!=True:
     print(f" {Mahkum[deneme]} {duygu_durumu[duygu]} görünüyor")
     if (deneme+1 == revolver):
         print(f"BoooM... {Mahkum[deneme]} Öldü")
-        patlama=1 #Burak Şahin Tarafından Kodlandı
+        patlama=1 
         olen=Mahkum[deneme]
         Kurtulanlar.remove(Mahkum[deneme])
     elif (deneme+1 != revolver):
